@@ -4,5 +4,5 @@ JavaScript: Understanding ES6 and Beyond
 1. lexical environment, curly brace
    - var, global
    - let, 
-   - const, the binding is immutable
+   - const, similar to let, but the binding is immutable
 2. 
