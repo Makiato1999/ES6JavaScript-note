@@ -16,4 +16,6 @@ JavaScript: Understanding ES6 and Beyond
       let lastname = Jie;
       let fullname = '${firstname} ${lastname}'
      ```
-3. 
+ ## Classes
+ 1. a structure in a programming language that provides a way to create objects
+ 2. 
