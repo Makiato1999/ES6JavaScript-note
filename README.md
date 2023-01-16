@@ -46,8 +46,14 @@ JavaScript: Understanding ES6 and Beyond
       thus, 
       ```
       b.__proto__ === Staff.prototype
-      b.__proto__.__proto__ === Person.prototype
+      
+      Staff.prototype.__proto__ === Person.prototype 
+      b.__proto__.__proto__ === Person.prototype 
+      
+      Person.prototype.__proto__ === Object.prototype
       b.__proto__.__proto__.__proto__ === Object.prototype
+      
+      Object.prototype.__proto__ === null
       b.__proto__.__proto__.__proto__.__proto__ === null
       ```
       there are all true!
