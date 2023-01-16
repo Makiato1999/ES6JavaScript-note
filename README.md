@@ -20,7 +20,9 @@ JavaScript: Understanding ES6 and Beyond
  1. a structure in a programming language that provides a way to create objects
  2. class, function object
  3. instance, the actual object created from an object creation feature(like a class)
- 4. ```__proto__``` is from the constructor's prototype
+ 4. how to understand ```__proto__``` and prototype?
+    - everything in JS can be considered as object, any object has property ```__proto__```
+    - ```__proto__``` comes from the prototype of constructor
     ```
       ( new Foo ).__proto__ === Foo.prototype
       ( new Foo ).prototype === undefined
