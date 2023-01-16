@@ -33,5 +33,10 @@ JavaScript: Understanding ES6 and Beyond
       ( new Foo ).__proto__.__proto__
       ```
       it would point to Object() constructor
+    - and Object.prototype is null, when
+      ```
+      ( new Foo ).__proto__.__proto__.prototype
+      ```
+      it would be null or undefined
     - 
     
