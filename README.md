@@ -38,5 +38,18 @@ JavaScript: Understanding ES6 and Beyond
       ( new Foo ).__proto__.__proto__.__proto__ === null
       ```
       it would be null or undefined
-    - 
+    - if there is inheritence in it, it would be more fun, assume that Staff extends Person,
+      ```
+      let a = new Person('Rick')
+      let b = new Staff('Steve')
+      ```
+      thus, 
+      ```
+      b.__proto__ === Staff.prototype
+      b.__proto__.__proto__ === Person.prototype
+      b.__proto__.__proto__.__proto__ === Object.prototype
+      b.__proto__.__proto__.__proto__.__proto__ === null
+      ```
+      there are all true!
+  5. 
     
