@@ -30,12 +30,12 @@ JavaScript: Understanding ES6 and Beyond
     - JavaScript has a built-in constructor called Object(), and the prototype property of this function points to an empty object
     - thus, when
       ```
-      ( new Foo ).__proto__.__proto__
+      ( new Foo ).__proto__.__proto__ === Object.prototype
       ```
       it would point to Object() constructor
-    - and Object.prototype is null, when
+    - when
       ```
-      ( new Foo ).__proto__.__proto__.prototype
+      ( new Foo ).__proto__.__proto__.__proto__ === null
       ```
       it would be null or undefined
     - 
