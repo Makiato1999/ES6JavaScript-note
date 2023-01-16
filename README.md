@@ -6,4 +6,6 @@ JavaScript: Understanding ES6 and Beyond
    - let, in the same block or block going up
    - const, similar to let, but the binding is immutable
 ## Templates
-1. 
+1. interpolation
+   - replace portions of strings with other strings. It described as inserting or injecting strings into another strings
+3. 
