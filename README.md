@@ -28,16 +28,16 @@ JavaScript: Understanding ES6 and Beyond
       ```
     - object ( new Foo )'s ```__proto__``` comes from the prototype of Foo constructor
     - JavaScript has a built-in constructor called Object(), and the prototype property of this function points to an empty object
-    - thus, when
+    - thus, we can say
       ```
       ( new Foo ).__proto__.__proto__ === Object.prototype
       ```
-      it would point to Object() constructor
-    - when
+      it is true
+    - and 
       ```
       ( new Foo ).__proto__.__proto__.__proto__ === null
       ```
-      it would be null or undefined
+      it is true
     - if there is inheritence in it, it would be more fun, assume that Staff extends Person,
       ```
       let a = new Person('Rick')
