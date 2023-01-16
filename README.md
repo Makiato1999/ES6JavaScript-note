@@ -5,4 +5,5 @@ JavaScript: Understanding ES6 and Beyond
    - var, global
    - let, in the same block or block going up
    - const, similar to let, but the binding is immutable
-2. 
+## Templates
+1. 
