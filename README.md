@@ -38,7 +38,7 @@ JavaScript: Understanding ES6 and Beyond
       ( new Foo ).__proto__.__proto__.__proto__ === null
       ```
       it is true
-    - if there is inheritence in it, it would be more fun, assume that Staff extends Person,
+    - if there is inheritence in it, it would be more fun, assume that Staff extends to Person,
       ```
       let a = new Person('Rick')
       let b = new Staff('Steve')
