@@ -19,3 +19,5 @@ JavaScript: Understanding ES6 and Beyond
  ## Classes
  1. a structure in a programming language that provides a way to create objects
  2. class, function object
+ 3. instance, the actual object created from an object creation feature(like a class)
+ 4. 
