@@ -10,4 +10,10 @@ JavaScript: Understanding ES6 and Beyond
    - string + string
 2. interpolation
    - replace portions of strings with other strings. It described as inserting or injecting strings into another strings
+   - dollar sign and curing brace within string
+   - ```
+      let firstname = Steven;
+      let lastname = Jie;
+      let fullname = '${firstname} ${lastname}'
+     ```
 3. 
