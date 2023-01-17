@@ -21,12 +21,6 @@ JavaScript: Understanding ES6 and Beyond
  2. class, function object
  3. instance, the actual object created from an object creation feature(like a class)
  4. how to understand ```__proto__``` and prototype?
-    - everything in JavaScript can be considered as object, any object has property ```__proto__```
-    - ```__proto__``` comes from the prototype of constructor
-      ```
-      ( new Foo ).__proto__ === Foo.prototype
-      ```
-    - object ( new Foo )'s ```__proto__``` comes from the prototype of Foo constructor
     - JavaScript has a built-in constructor called Object(), and the prototype property of this function points to an empty object
     - thus, we can say
       ```
@@ -57,5 +51,7 @@ JavaScript: Understanding ES6 and Beyond
       b.__proto__.__proto__.__proto__.__proto__ === null
       ```
       there are all true!
-  5. 
+     - more details, refer to [this link](https://www.zhihu.com/question/34183746)
+  5. static
+     - 
     
