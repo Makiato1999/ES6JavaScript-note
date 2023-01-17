@@ -54,5 +54,9 @@ JavaScript: Understanding ES6 and Beyond
      - more details, refer to [this link](https://www.zhihu.com/question/34183746)
   5. static
      - create a method or variable that it doesn't reference any of the fields in the class
-  6. private
+  6. private fields
      - use ```#```
+     - getter, setter
+  7. private methods
+     -
+     
