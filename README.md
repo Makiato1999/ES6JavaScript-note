@@ -55,4 +55,4 @@ JavaScript: Understanding ES6 and Beyond
   5. static
      - create a method or variable that it doesn't reference any of the fields in the class
   6. private
-     - #
+     - use ```#```
