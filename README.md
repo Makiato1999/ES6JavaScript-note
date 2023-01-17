@@ -53,5 +53,5 @@ JavaScript: Understanding ES6 and Beyond
       there are all true!
      - more details, refer to [this link](https://www.zhihu.com/question/34183746)
   5. static
-     - 
+     - create a method or variable that it doesn't reference any of the fields in the class
     
