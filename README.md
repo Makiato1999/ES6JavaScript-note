@@ -58,5 +58,6 @@ JavaScript: Understanding ES6 and Beyond
      - use ```#```
      - getter, setter
   7. private methods
-     -
+## Arrow Functions
+1. 
      
