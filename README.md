@@ -1,4 +1,4 @@
-# note-ES6-JavaScript
+# ES6JavaScript-note
 JavaScript: Understanding ES6 and Beyond
 ## Block Scoping
 1. lexical environment, curly brace
