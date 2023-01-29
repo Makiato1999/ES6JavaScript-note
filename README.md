@@ -61,5 +61,6 @@ JavaScript: Understanding ES6 and Beyond
 ## Arrow Functions
 1. 
 ## Iterators and Iterables
+## Default Parameters
 
      
