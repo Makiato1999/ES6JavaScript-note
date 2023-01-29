@@ -60,4 +60,6 @@ JavaScript: Understanding ES6 and Beyond
   7. private methods
 ## Arrow Functions
 1. 
+## Iterators and Iterables
+
      
