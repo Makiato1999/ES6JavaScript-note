@@ -62,5 +62,7 @@ JavaScript: Understanding ES6 and Beyond
 1. 
 ## Iterators and Iterables
 ## Default Parameters
+1. if parameters are undefined, then the default value will be instead of it
+2. if parameters are null, then the default value will not work
 
      
